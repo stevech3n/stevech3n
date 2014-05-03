@@ -1,9 +1,9 @@
 
-role :app, %w{stevechen@107.170.154.20}
-role :web, %w{stevechen@107.170.154.20}
+role :app, %w{root@stevech3n.com}
+role :web, %w{root@stevech3n.com}
 
-server 'stevechen.com', user: 'stevechen', roles: %w{web app}
+server 'stevechen.com', user: 'root', roles: %w{web app}
 
-set :user, 'stevechen'
+set :user, 'root'
 
 set :deploy_to, '/home/root/sites/stevechen'

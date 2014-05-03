@@ -1,4 +1,4 @@
-lock '3.1.0'
+lock '3.2.1'
 
 set :application, 'stevech3n'
 set :repo_url, 'https://github.com/stevech3n/stevech3n.git'
